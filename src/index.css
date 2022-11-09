@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    th {
+      @apply text-white text-sm font-light text-left py-4 px-2;
+    }
+  }
+
+  @layer base {
+    td {
+      @apply text-left p-2;
+    }
+  }
